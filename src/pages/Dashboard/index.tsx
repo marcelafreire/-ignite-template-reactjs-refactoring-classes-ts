@@ -70,6 +70,7 @@ import { FoodProps } from '../../types';
   const toggleEditModal = () => {
    setEditModalOpen(!editModalOpen);
   }
+  
 
   const handleEditFood = (food: FoodProps) => {
     setEditingFood(food);
